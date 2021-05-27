@@ -12,35 +12,32 @@
 </head>
 
 <body>
-  <div class="fundo">
-    <h1>David Santos</h1>
-
-    <div class="calculadora">
+  <div class="back-color">
+    <div class="calculator">
 
       <div class="reader">
-        <h1>Calculadora</h1>
-        <p id="resultado"></p>
+        <p id="input-text"></p>
       </div>
 
-      <div class="buttons">
-        <button class="botao" onclick="clean()">C</button>
-        <button class="botao" onclick="back()">&lt;</button>
-        <button class="botao" onclick="insert('/')">/</button>
-        <button class="botao" onclick="insert('*')">x</button>
-        <button class="botao" onclick="insert('7')">7</button>
-        <button class="botao" onclick="insert('8')">8</button>
-        <button class="botao" onclick="insert('9')">9</button>
-        <button class="botao" onclick="insert('-')">-</button>
-        <button class="botao" onclick="insert('4')">4</button>
-        <button class="botao" onclick="insert('5')">5</button>
-        <button class="botao" onclick="insert('6')">6</button>
-        <button class="botao" onclick="insert('+')">+</button>
-        <button class="botao" onclick="insert('1')">1</button>
-        <button class="botao" onclick="insert('2')">2</button>
-        <button class="botao" onclick="insert('3')">3</button>
-        <button class="botao bt-equal" onclick="calcular()">=</button>
-        <button class="botao bt-zero" onclick="insert('0')">0</button>
-        <button class="botao point" onclick="insert('.')">.</button>
+      <div class="grid-area">
+        <button class="calc-buttons" onclick="clean()">C</button>
+        <button class="calc-buttons" onclick="back()">&lt;</button>
+        <button class="calc-buttons" onclick="insert('/')">/</button>
+        <button class="calc-buttons" onclick="insert('*')">x</button>
+        <button class="calc-buttons" onclick="insert('7')">7</button>
+        <button class="calc-buttons" onclick="insert('8')">8</button>
+        <button class="calc-buttons" onclick="insert('9')">9</button>
+        <button class="calc-buttons" onclick="insert('-')">-</button>
+        <button class="calc-buttons" onclick="insert('4')">4</button>
+        <button class="calc-buttons" onclick="insert('5')">5</button>
+        <button class="calc-buttons" onclick="insert('6')">6</button>
+        <button class="calc-buttons" onclick="insert('+')">+</button>
+        <button class="calc-buttons" onclick="insert('1')">1</button>
+        <button class="calc-buttons" onclick="insert('2')">2</button>
+        <button class="calc-buttons" onclick="insert('3')">3</button>
+        <button class="calc-buttons btn-equal" onclick="calcular()">=</button>
+        <button class="calc-buttons btn-zero" onclick="insert('0')">0</button>
+        <button class="calc-buttons btn-dot" onclick="insert('.')">.</button>
       </div>
 
     </div>
