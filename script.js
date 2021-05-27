@@ -1,21 +1,21 @@
 function insert(num) {
-  var numero = document.getElementById("resultado").innerHTML
-  document.getElementById("resultado").innerHTML = numero + num
+  var numero = document.getElementById("input-text").innerHTML
+  document.getElementById("input-text").innerHTML = numero + num
 }
 
 function clean() {
-  document.getElementById("resultado").innerHTML = ""
+  document.getElementById("input-text").innerHTML = ""
 }
 
 function back() {
-  var resultado = document.getElementById("resultado").innerHTML
-  document.getElementById("resultado").innerHTML = resultado.substring(0, resultado.length -1)
+  var inputText = document.getElementById("input-text").innerHTML
+  document.getElementById("input-text").innerHTML = input-text.substring(0, inputText.length -1)
 }
 
 function calcular() {
-  var resultado = document.getElementById("resultado").innerHTML
+  var inputText = document.getElementById("input-text").innerHTML
 
-  if(resultado) {
-    document.getElementById("resultado").innerHTML = eval(resultado)
+  if(inputText) {
+    document.getElementById("input-text").innerHTML = eval(inputText)
   }
 }
