@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .fundo {
@@ -22,15 +23,44 @@
   padding: 15px;
 }
 
+.reader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+
+  margin: 9px 3px;
+}
+
 .botao {
   width: 50px;
   height: 50px;
   font-size: 25px;
   cursor: pointer;
-  margin: 3px;
   background-color: rgb(31, 31, 31);
   border: none;
   color: #fff;
+}
+
+.bt-zero {
+  width: 103px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.point {
+  grid-column-start: 3;
+}
+
+.bt-equal {
+  height: 103px;
 }
 
 .botao:hover {
@@ -41,7 +71,6 @@
   width: 207px;
   height: 30px;
   background-color: #fff;
-  margin: 5px;
   font-size: 25px;
   color: black;
   text-align: right;
