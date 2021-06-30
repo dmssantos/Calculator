@@ -32,7 +32,7 @@ Uma calculadora simples, Desenvolvida para realizar calculos básicos como soma,
 
 você pode ver o funcionamento em: https://dmssantos.github.io/calculadora/
 
-## ✨ Contribuindo
+## 🤝 Contribuindo
 
 Obrigado por estar interessado em tornar este projeto melhor. Encorajo todos a ajudar a melhorar este projeto com novos recursos, correções de bugs ou melhorias de desempenho.
 
