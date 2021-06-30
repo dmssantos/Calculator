@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="Calculadora" src=".github/calculadora.png" width="100%">
+  <img alt="Calculadora" src="github/calculadora.png" width="100%">
 </p>
 
 ## ✨ Tecnologias
