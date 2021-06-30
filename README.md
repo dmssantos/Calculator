@@ -40,6 +40,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ##
 
-<h1 align="center">
-  © [David Santos](https://github.com/dmssantos)
-</h1>
+<p align="center">
+  ©<a href="https://github.com/dmssantos"> David Santos</a>
+</p>
