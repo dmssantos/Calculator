@@ -40,6 +40,6 @@ Obrigado por estar interessado em tornar este projeto melhor. Encorajo todos a a
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
----
+##
 
 © [David Santos](https://github.com/dmssantos)
