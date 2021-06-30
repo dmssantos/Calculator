@@ -1,5 +1,5 @@
 <h1 align="center">
-  calculadora
+  CALCULADORA
 </h1>
 
 <p align="center">
@@ -13,7 +13,11 @@
 <br>
 
 <p align="center">
+<<<<<<< HEAD
   <img alt="Calculadora" src="./.github/calculadora.png" width="100%">
+=======
+  <img alt="Calculadora" src="github/calculadora.png" width="100%">
+>>>>>>> 74058114bbe6e42ab8f072bd97f9bcba4f41d19a
 </p>
 
 ## ✨ Tecnologias
