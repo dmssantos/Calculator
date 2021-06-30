@@ -22,8 +22,6 @@
 `CSS`   
 `JavaScript`
 
-
-
 ## 💻 Projeto
 
 Uma calculadora simples, Desenvolvida para realizar calculos básicos como soma, subtração, multiplicação e divisão. Desenvolvida com o intuito de trainar os conhecimentos em html, JavaScript e principalmento o css grid.
@@ -42,4 +40,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ##
 
-© [David Santos](https://github.com/dmssantos)
+<h1 align="center">
+  © [David Santos](https://github.com/dmssantos)
+</h1>
